@@ -43,11 +43,22 @@
       font-size: 0.9em;
       color: #888;
     }
+    .highlight {
+      font-size: 1.1em;
+      background-color: #eaf4ff;
+      padding: 10px 15px;
+      border-left: 4px solid #3498db;
+      margin-bottom: 30px;
+    }
   </style>
 </head>
 <body>
   <div class="container">
     <h1>김현호 - 이력서</h1>
+
+    <div class="highlight">
+      💡 소프트웨어와 IOT를 연결하는 융합형 개발자를 꿈꾸는 컴소과 3학년 김현호입니다.
+    </div>
 
     <div class="section">
       <h2>기본 정보</h2>
@@ -61,8 +72,8 @@
         <li><strong>프로그래밍:</strong> Python, C, Java, JavaScript</li>
         <li><strong>웹 개발:</strong> HTML, CSS, JSP (MVC 모델2), REST API</li>
         <li><strong>데이터 분석:</strong> Pandas, 공공데이터 활용</li>
-        <li><strong>임베디드/IOT:</strong> Arduino Uno, Raspberry Pi 4, 센서 제어</li>
-        <li><strong>기타:</strong> Git, MQTT 클라우드, jQuery</li>
+        <li><strong>임베디드/IOT:</strong> Arduino, Raspberry Pi, 센서 제어, MQTT</li>
+        <li><strong>도구:</strong> Git, VSCode, MySQL</li>
       </ul>
     </div>
 
@@ -70,37 +81,45 @@
       <h2>프로젝트 경험</h2>
 
       <div class="project">
-        <p class="project-title">📍 지역 범죄 시각화 프로젝트 <span class="date">(2-1학기)</span></p>
+        <p class="project-title">📍 지역 범죄 시각화 프로젝트 <span class="date">(2-1학기 / 팀 프로젝트 2인)</span></p>
         <ul>
-          <li>Python과 Pandas로 공공데이터 분석</li>
-          <li>지역 내 범죄율을 시각화하여 위험지역 한눈에 파악 가능</li>
+          <li>Python Pandas와 공공데이터를 활용하여 지역 범죄 통계 시각화</li>
+          <li>위험지역을 지도에 시각화하여 직관적인 인식 가능</li>
+          <li><strong>역할:</strong> 데이터 전처리 및 시각화 구현, 전체 코드 설계 주도</li>
+          <li><strong>사용 기술:</strong> Python, Pandas, Matplotlib, 공공데이터포털 API</li>
         </ul>
 
-        <p class="project-title">📡 IOT 초음파 레이더기지 <span class="date">(2-1학기)</span></p>
+        <p class="project-title">📡 IOT 초음파 레이더기지 <span class="date">(2-1학기 / 팀 프로젝트 2인)</span></p>
         <ul>
-          <li>Arduino Uno, 초음파센서, 서보 모터, 부저 활용</li>
-          <li>특정 범위 내 물체 접근 감지 → 시각화 및 모터/부저 동작 제어</li>
+          <li>Arduino Uno, 초음파센서, 서보 모터, 부저 등을 활용한 IOT 경보 시스템</li>
+          <li>감지 거리 기반 모터/부저 동작 및 LED 시각화</li>
+          <li><strong>역할:</strong> 전체 시스템 구성 및 회로 설계, 코드 작성, 시각화 구현</li>
+          <li><strong>사용 기술:</strong> Arduino IDE, C언어, 초음파센서, 서보모터</li>
         </ul>
 
-        <p class="project-title">🛍️ JSP 쇼핑몰 웹사이트 <span class="date">(2-2학기)</span></p>
+        <p class="project-title">🛍️ JSP 기반 쇼핑몰 웹사이트 <span class="date">(2-2학기 / 팀 프로젝트 4인)</span></p>
         <ul>
-          <li>MVC 모델2 패턴으로 구현</li>
-          <li>카카오톡 로그인, 실시간 채팅, 카테고리 시스템, 날씨 API 기반 추천 코디</li>
-          <li>사용자 관심사 기반 맞춤형 코디 시스템</li>
+          <li>MVC 모델2 방식으로 웹 쇼핑몰 구현</li>
+          <li>카카오 로그인, 실시간 채팅, 관심사 기반 추천코디, 날씨 API 기반 추천 등 다양한 기능 구현</li>
+          <li><strong>역할:</strong> 로그인/회원 관리 기능, 채팅 기능, 날씨 API 연동</li>
+          <li><strong>사용 기술:</strong> JSP, Java, JavaScript, MySQL, jQuery, OpenWeather API</li>
         </ul>
 
-        <p class="project-title">🤖 자율주행 서빙 로봇 <span class="date">(2-2학기)</span></p>
+        <p class="project-title">🤖 자율주행 서빙 로봇 <span class="date">(2-2학기 / 개인 프로젝트)</span></p>
         <ul>
-          <li>Arduino 기반 서빙로봇 제작 (테이블 좌표로 자율 주행)</li>
-          <li>도착 시 부저 알림, 음식 서빙 후 복귀 기능 구현</li>
+          <li>좌표 기반 자율주행 기능 구현으로 지정된 테이블에 서빙</li>
+          <li>도착 시 부저 알림, 서빙 후 자동 복귀</li>
+          <li><strong>역할:</strong> 전체 설계 및 구현 (개인)</li>
+          <li><strong>사용 기술:</strong> Arduino, 서보모터, 좌표 매핑 알고리즘</li>
         </ul>
 
-        <p class="project-title">🌱 스마트 환경관리 시스템 <span class="date">(3-1학기 진행중)</span></p>
+        <p class="project-title">🌱 스마트 환경관리 시스템 <span class="date">(3-1학기 / 졸업작품 진행 중)</span></p>
         <ul>
-          <li>아두이노 & 라즈베리파이4 + 센서 + DC모터 기반 환경 관리 시스템</li>
-          <li>실내 미세먼지, 온습도, 전류 측정 → 웹사이트에서 실시간 모니터링</li>
-          <li>DC모터 자동/수동 제어 + 전력 절약 계산</li>
-          <li>시스템 구조: Arduino ↔ Raspberry Pi 4 ↔ MQTT ↔ Web Server</li>
+          <li>라즈베리파이4 + 아두이노 + 각종 센서를 이용한 실내 환경 모니터링 시스템</li>
+          <li>웹에서 실시간 모니터링 + DC모터 자동/수동 제어 + 전류 측정 기반 에너지 절약 계산</li>
+          <li>시스템 흐름: Arduino ↔ Raspberry Pi ↔ MQTT ↔ Web</li>
+          <li><strong>역할:</strong> 시스템 아키텍처 설계, 아두이노/웹 서버 연동, 센서 제어</li>
+          <li><strong>사용 기술:</strong> Arduino, Raspberry Pi, MQTT, HTML/CSS/JS, PHP</li>
         </ul>
       </div>
     </div>
@@ -108,10 +127,9 @@
     <div class="section">
       <h2>자기소개</h2>
       <p>
-        하드웨어와 소프트웨어를 아우르는 융합형 개발자를 지향하며,  
-        실생활에 적용 가능한 시스템을 만드는 데 흥미를 느낍니다.<br>
-        문제 해결과 창의적인 설계에 강점이 있으며,  
-        새로운 기술과 도전을 즐기며 성장하고 있습니다.
+        실생활에 필요한 시스템을 직접 만들고 구현하는 것을 좋아합니다.<br>
+        IOT, 웹, 하드웨어를 아우르는 융합형 프로젝트에 흥미를 느끼며,  
+        새로운 기술을 배우고 문제를 해결하는 과정에서 즐거움을 찾습니다.
       </p>
     </div>
   </div>
